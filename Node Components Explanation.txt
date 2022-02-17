@@ -1,0 +1,18 @@
+Kubernetes 
+
+	1. Master(Control Plane)
+	2. Worker(Node Component)
+	
+	1. Master
+		a. Kubectl (Controller Manager)		-- 	Gets the input and performs the work in the background like createing pods and replicas and endpoints
+		b. API Server						--	Front End to the Cluster
+		c. Scheduler
+		d. etcd								--	Has Metadata of the running Applications in Cluster
+		e. DNS Server
+		
+	
+	2. Worker
+		a. Kubelet
+		b. Kube-proxy
+		c. Docker
+		
